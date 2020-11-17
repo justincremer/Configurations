@@ -1,0 +1,27 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "languageserver": {
+    "haskell": {
+      "command": "hie-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": [
+        "stack.yaml",
+        "cabal.config",
+	"cabal.project",
+        "package.yaml",
+	"hie.yaml",
+	"*.cabal"
+      ],
+      "filetypes": [
+        "haskell",
+        "lhaskell"
+      ],
+      "initializationOptions": {
+        "languageServerHaskell": {
+           "hlintOn": true
+        }
+      }
+    }
+  }
+}

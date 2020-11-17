@@ -1,0 +1,29 @@
+" Plugins
+call plug#begin('~/.config/nvim/plugged')
+" Tools
+    Plug 'junegunn/goyo.vim'
+    Plug 'vifm/vifm.vim'
+    Plug 'junegunn/limelight.vim'
+    Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
+    Plug 'ctrlpvim/ctrlp.vim'
+" Syntax
+    Plug 'Townk/vim-autoclose'
+" Style
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+" Color-schemes
+    Plug 'morhetz/gruvbox' "My favorite theme
+    Plug 'tomasr/molokai'
+    Plug 'kristijanhusak/vim-hybrid-material'
+    Plug 'NLKNguyen/papercolor-theme'
+    Plug 'ajh17/Spacegray.vim'
+    Plug 'chriskempson/base16-vim'
+" Languages
+    Plug 'haskell/haskell-ide-engine'
+    " Haskell
+    Plug 'neovimhaskell/haskell-vim'
+    Plug 'alx741/vim-hindent'
+    Plug 'mpickering/hlint-refactor-vim'
+    " Markdown
+    Plug 'tpope/vim-markdown'
+call plug#end()

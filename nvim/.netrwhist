@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='D:/Development/4D_Technologies/Staccato/Services/.dev/nginx/logs'
+let g:netrw_dirhist_3='D:/Development/4D_Technologies/Staccato/Services/.dev/nginx'
+let g:netrw_dirhist_2='D:/Development/4D_Technologies/Staccato/Services/.dev'
+let g:netrw_dirhist_1='D:/Development/4D_Technologies/Staccato/Clients/Admin/lib/home'
+let g:netrw_dirhist_0='D:/Development/4D_Technologies/Staccato/Clients/Admin/lib'
+let g:netrw_dirhist_9='D:/Development/4D_Technologies/Staccato/Clients/Admin'
+let g:netrw_dirhist_8='D:/Development/4D_Technologies/Staccato/Clients'
+let g:netrw_dirhist_7='D:/Development/4D_Technologies/Staccato/Services/.dev'
+let g:netrw_dirhist_6='D:/Development/4D_Technologies/Staccato/Services'
+let g:netrw_dirhist_5='D:\Development\4D_Technologies\Staccato'
