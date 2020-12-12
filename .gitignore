@@ -1,0 +1,12 @@
+*
+!.gitignore
+!README.md
+!.xmobar/
+!.xmonad/xmonad.hs
+!.emacs.d/init.el
+!Bash/
+!Wallpapers/
+!kitty/
+!neofetch/
+!nvim/
+!compton.conf
