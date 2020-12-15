@@ -1,3 +1,2 @@
-.xmobar/*
-!.xmonad/xmonad.hs
-
+xmonad/*
+!xmonad/xmonad.hs
